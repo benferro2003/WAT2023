@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+#specialfont {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: x-large;}
+
+.spacing {
+    letter-spacing: 10px;
+    color: mediumpurple;
+}
+
+ li {
+
+    list-style-type: none;
+    display: inline;
+    margin: 50px;
+    border-style: solid;
+    border-color: orangered;
+    border-width: auto;
+    padding: 15px;
+    background-color: beige;}
+
+.col1 {
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    border-style: solid;
+    border-color:red;
+
+}
+
+.col2 {
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    padding-right: 450px;
+    border-style: solid;
+    border-color:red;
+
+}
+
+.col3 {
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    padding-right: 200px;
+    border-style: solid;
+    border-color:red;
+
+}

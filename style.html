@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Style Webpage</title>
+       
+        <link rel="stylesheet" href=style.css>
+        
+        <style>
+            pre 
+            {color:green;
+            font-size: x-large;}
+
+        </style>
+
+    </head>
+
+    <body>
+        <p><h1>Fundamentals of CSS</h1></p>
+        <p><h2>Cascading</h2></p>
+        <p style=font-weight:800>Style can be added as an inline element using the style attribute on tags as is the case for this paragraph. Here font-weight has been given a weight of 800.</p>
+        <pre>
+    The inline style takes precedent over all other style 
+    declerations. Next in order of precedent is the embedded 
+    style. This uses style tags and is often found in the
+    header section of a page. This pre tag is styled with 
+    embedded style. An extra large green font.</pre>
+        <p>Ideally style is held separate to structure in a style sheet. Other than the 2 examples above all other style on this page is in a separate style sheet. Including the change of  base font to Arial.</p>
+        <p id = "specialfont">Selectors</p>
+        <p>CSS selectors are used to apply style. There is the element selector, class selector and id selector. All being well you have used an element selector to modify the font on this page by adding style to the body<br> tag in your attached style sheet. words in this <span class="spacing">sentence</span> have been<span class = "spacing"> styled </span> using a class selector applied to letter-spacing and the heading for this section with an id selector. </p>
+        <p><h1>Box Model</h1></p> 
+        <ul>
+            <br>
+           <li> <a href="https://www.tutorialrepublic.com/html-tutorial/"> https://www.tutorialrepublic.com/html-tutorial/ </a> </li>
+           <li> <a href="https://www.tutorialrepublic.com/css-tutorial/"> https://www.tutorialrepublic.com/css-tutorial/ </a> </li>
+           <li> <a href="https://www.w3schools.com/"> https://www.w3schools.com/ </a> </li>
+           
+        </ul> 
+        <p><br>The links above are held in a list that is re-styled to remove list-style-type and display inline. Padding, margin and border are the added as appropriate.</p>              
+        <p><h1>Layout</h1></p>
+
+        <p class = "col1"> These words are in column 1</p>
+        <p class = "col2"> These words are in column 2</p>
+        <p class = "col3"> These words are in column 3</p>
+        
+        
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <p>Margin, padding,borders and floats added to achieve this layout of columns</p>
+
+        
+
+
+    </body>
+</html>

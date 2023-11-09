@@ -55,13 +55,34 @@ error_reporting(E_ALL);
             </fieldset>
         </form>
         <?php
-            $email2 = $_POST["email2"];
-            $confirm = $_POST["confirm"];
-            if (isset($_POST["checked"])) {
-                $confirm = 'Agreed <br />';
-            }else{
-                $confirm = 'Not Agreed';
-            }
+            if(isset($_POST['submission']))
+            {            
+
+
+                if(!empty($_POST['Email']))
+                {
+                    $email2 = $_POST["Email"];
+                    $comment = $_POST["comments"];
+                
+                    echo "Email: " . $email2 . "<br />";
+                    echo "Comments: " . $comment . "<br />";
+                    if (isset($_POST["checked"])) {
+                        $confirm = 'Agreed <br />';
+                        echo "Confirm: " . $confirm;
+        
+                    }else{
+                        $confirm = 'Not Agreed';
+                        echo "Confirm: " . $confirm;
+                    }
+                    
+                }else{ echo "email must not be empty";};
+            }else{};
+
+
+
+
+
+
 
         
 
